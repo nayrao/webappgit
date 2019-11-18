@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript">
+
+function enter(){
+	
+	var f=document.getElementByName("first");
+	
+	if(f==""){
+		alert("avuna");
+		return false;
+	}
+	alert("plss");
+	
+	return false;
+	
+}
+
+</script>
+</head>
+<body>
+<form action="enter" >
+<table  align="center">
+
+  <tr>
+  <th>FirstName </th>
+  <td><input type="text" name="first"></td>
+  </tr>
+  
+   <tr>
+  <th>SecondName </th>
+  <td><input type="text" name="second"></td>
+  </tr>
+  
+   <tr>
+  <th align="center"> </th>
+  <td><input type="submit" value="sub" onclick="return enter()"></td>
+  </tr>
+ 
+</table>
+</form>
+
+</body>
+</html>
